@@ -1,0 +1,724 @@
+[2022-10-22 09:46:23,755] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 09:46:23,756] [main] Generated logs will be saved to: ./logs
+[2022-10-22 09:46:23,756] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 09:46:23,756] [main] -------------command line arguments-------------
+[2022-10-22 09:46:23,756] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 09:46:23,756] [main] -------------configs-------------
+[2022-10-22 09:46:23,756] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 09:46:33,419] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 09:46:35,358] [main] best model pack loaded
+[2022-10-22 10:11:58,432] [main] ------------------------------------
+[2022-10-22 10:11:58,434] [main] step : 79000  test_edge_loss : 11.713238750775655  test_node_acc : 0.846777786910534
+[2022-10-22 10:11:58,436] [main] evaluation: total_count=2999, accuracy: mean=84.68%, std=6.33%, ci95=0.23%
+[2022-10-22 10:11:58,436] [main] ------------------------------------
+[2022-10-22 10:12:50,330] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:12:50,331] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:12:50,331] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:12:50,331] [main] -------------command line arguments-------------
+[2022-10-22 10:12:50,331] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:12:50,332] [main] -------------configs-------------
+[2022-10-22 10:12:50,332] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:12:57,667] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:12:57,938] [main] best model pack loaded
+[2022-10-22 10:39:38,406] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:39:38,407] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:39:38,407] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:39:38,408] [main] -------------command line arguments-------------
+[2022-10-22 10:39:38,408] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:39:38,408] [main] -------------configs-------------
+[2022-10-22 10:39:38,408] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:39:45,338] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:39:45,626] [main] best model pack loaded
+[2022-10-22 10:40:54,582] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:40:54,583] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:40:54,583] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:40:54,583] [main] -------------command line arguments-------------
+[2022-10-22 10:40:54,583] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:40:54,584] [main] -------------configs-------------
+[2022-10-22 10:40:54,584] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:41:01,891] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:41:02,143] [main] best model pack loaded
+[2022-10-22 10:41:47,328] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:41:47,329] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:41:47,329] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:41:47,329] [main] -------------command line arguments-------------
+[2022-10-22 10:41:47,329] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:41:47,329] [main] -------------configs-------------
+[2022-10-22 10:41:47,329] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:41:54,651] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:41:54,905] [main] best model pack loaded
+[2022-10-22 10:45:11,418] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:45:11,418] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:45:11,419] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:45:11,419] [main] -------------command line arguments-------------
+[2022-10-22 10:45:11,419] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:45:11,419] [main] -------------configs-------------
+[2022-10-22 10:45:11,419] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:45:18,458] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:45:18,740] [main] best model pack loaded
+[2022-10-22 10:49:16,948] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 10:49:16,948] [main] Generated logs will be saved to: ./logs
+[2022-10-22 10:49:16,949] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 10:49:16,949] [main] -------------command line arguments-------------
+[2022-10-22 10:49:16,949] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 10:49:16,949] [main] -------------configs-------------
+[2022-10-22 10:49:16,949] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 10:49:23,968] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 10:49:24,228] [main] best model pack loaded
+[2022-10-22 11:12:48,528] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:12:48,528] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:12:48,528] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:12:48,529] [main] -------------command line arguments-------------
+[2022-10-22 11:12:48,529] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:12:48,529] [main] -------------configs-------------
+[2022-10-22 11:12:48,529] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:12:55,827] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:12:56,084] [main] best model pack loaded
+[2022-10-22 11:20:40,754] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:20:40,754] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:20:40,754] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:20:40,755] [main] -------------command line arguments-------------
+[2022-10-22 11:20:40,755] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:20:40,755] [main] -------------configs-------------
+[2022-10-22 11:20:40,757] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:20:47,909] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:20:48,166] [main] best model pack loaded
+[2022-10-22 11:25:11,922] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:25:11,923] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:25:11,923] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:25:11,923] [main] -------------command line arguments-------------
+[2022-10-22 11:25:11,923] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:25:11,924] [main] -------------configs-------------
+[2022-10-22 11:25:11,924] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:25:19,026] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:25:19,282] [main] best model pack loaded
+[2022-10-22 11:36:50,975] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:36:50,976] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:36:50,976] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:36:50,976] [main] -------------command line arguments-------------
+[2022-10-22 11:36:50,977] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:36:50,977] [main] -------------configs-------------
+[2022-10-22 11:36:50,977] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:36:58,188] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:36:58,448] [main] best model pack loaded
+[2022-10-22 11:40:49,985] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:40:49,986] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:40:49,986] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:40:49,987] [main] -------------command line arguments-------------
+[2022-10-22 11:40:49,987] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:40:49,987] [main] -------------configs-------------
+[2022-10-22 11:40:49,987] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:40:56,918] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:40:57,170] [main] best model pack loaded
+[2022-10-22 11:42:41,113] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:42:41,114] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:42:41,114] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:42:41,114] [main] -------------command line arguments-------------
+[2022-10-22 11:42:41,114] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:42:41,115] [main] -------------configs-------------
+[2022-10-22 11:42:41,115] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:42:48,063] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:42:48,326] [main] best model pack loaded
+[2022-10-22 11:43:10,082] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:43:10,083] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:43:10,083] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:43:10,083] [main] -------------command line arguments-------------
+[2022-10-22 11:43:10,083] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:43:10,084] [main] -------------configs-------------
+[2022-10-22 11:43:10,084] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:43:17,323] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:43:17,584] [main] best model pack loaded
+[2022-10-22 11:46:30,426] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:46:30,427] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:46:30,427] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:46:30,427] [main] -------------command line arguments-------------
+[2022-10-22 11:46:30,427] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:46:30,428] [main] -------------configs-------------
+[2022-10-22 11:46:30,428] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:46:37,357] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:46:37,610] [main] best model pack loaded
+[2022-10-22 11:50:52,378] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:50:52,378] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:50:52,378] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:50:52,379] [main] -------------command line arguments-------------
+[2022-10-22 11:50:52,379] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:50:52,379] [main] -------------configs-------------
+[2022-10-22 11:50:52,379] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:50:59,651] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:50:59,903] [main] best model pack loaded
+[2022-10-22 11:51:43,435] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:51:43,436] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:51:43,436] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:51:43,436] [main] -------------command line arguments-------------
+[2022-10-22 11:51:43,436] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:51:43,436] [main] -------------configs-------------
+[2022-10-22 11:51:43,437] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:51:50,628] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:51:50,886] [main] best model pack loaded
+[2022-10-22 11:52:09,959] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:52:09,960] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:52:09,960] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:52:09,960] [main] -------------command line arguments-------------
+[2022-10-22 11:52:09,960] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:52:09,961] [main] -------------configs-------------
+[2022-10-22 11:52:09,961] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:52:16,907] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:52:17,168] [main] best model pack loaded
+[2022-10-22 11:53:00,083] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:53:00,084] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:53:00,084] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:53:00,084] [main] -------------command line arguments-------------
+[2022-10-22 11:53:00,084] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:53:00,085] [main] -------------configs-------------
+[2022-10-22 11:53:00,085] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:53:07,405] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:53:07,661] [main] best model pack loaded
+[2022-10-22 11:53:25,597] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:53:25,598] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:53:25,598] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:53:25,598] [main] -------------command line arguments-------------
+[2022-10-22 11:53:25,599] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:53:25,599] [main] -------------configs-------------
+[2022-10-22 11:53:25,599] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:53:32,605] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:53:32,861] [main] best model pack loaded
+[2022-10-22 11:54:56,619] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:54:56,619] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:54:56,620] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:54:56,620] [main] -------------command line arguments-------------
+[2022-10-22 11:54:56,620] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:54:56,620] [main] -------------configs-------------
+[2022-10-22 11:54:56,620] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:55:03,589] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:55:03,841] [main] best model pack loaded
+[2022-10-22 11:55:42,862] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 11:55:42,863] [main] Generated logs will be saved to: ./logs
+[2022-10-22 11:55:42,863] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 11:55:42,863] [main] -------------command line arguments-------------
+[2022-10-22 11:55:42,864] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 11:55:42,864] [main] -------------configs-------------
+[2022-10-22 11:55:42,864] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 11:55:50,226] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 11:55:50,479] [main] best model pack loaded
+[2022-10-22 12:22:24,635] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:22:24,636] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:22:24,636] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:22:24,636] [main] -------------command line arguments-------------
+[2022-10-22 12:22:24,636] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:22:24,637] [main] -------------configs-------------
+[2022-10-22 12:22:24,637] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:22:31,945] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:22:32,198] [main] best model pack loaded
+[2022-10-22 12:25:06,101] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:25:06,102] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:25:06,102] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:25:06,103] [main] -------------command line arguments-------------
+[2022-10-22 12:25:06,103] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:25:06,103] [main] -------------configs-------------
+[2022-10-22 12:25:06,103] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:25:13,133] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:25:13,389] [main] best model pack loaded
+[2022-10-22 12:28:51,921] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:28:51,921] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:28:51,921] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:28:51,922] [main] -------------command line arguments-------------
+[2022-10-22 12:28:51,922] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:28:51,922] [main] -------------configs-------------
+[2022-10-22 12:28:51,922] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:28:59,101] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:28:59,387] [main] best model pack loaded
+[2022-10-22 12:33:06,013] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:33:06,013] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:33:06,014] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:33:06,014] [main] -------------command line arguments-------------
+[2022-10-22 12:33:06,014] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:33:06,014] [main] -------------configs-------------
+[2022-10-22 12:33:06,014] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:33:13,127] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:33:13,416] [main] best model pack loaded
+[2022-10-22 12:34:35,846] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:34:35,846] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:34:35,846] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:34:35,847] [main] -------------command line arguments-------------
+[2022-10-22 12:34:35,847] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:34:35,847] [main] -------------configs-------------
+[2022-10-22 12:34:35,847] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:34:43,198] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:34:43,455] [main] best model pack loaded
+[2022-10-22 12:35:36,998] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:35:36,998] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:35:36,998] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:35:36,999] [main] -------------command line arguments-------------
+[2022-10-22 12:35:36,999] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:35:36,999] [main] -------------configs-------------
+[2022-10-22 12:35:36,999] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:35:44,118] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:35:44,404] [main] best model pack loaded
+[2022-10-22 12:36:43,019] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:36:43,020] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:36:43,020] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:36:43,020] [main] -------------command line arguments-------------
+[2022-10-22 12:36:43,020] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:36:43,021] [main] -------------configs-------------
+[2022-10-22 12:36:43,021] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:36:50,354] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:36:50,611] [main] best model pack loaded
+[2022-10-22 12:38:09,235] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 12:38:09,235] [main] Generated logs will be saved to: ./logs
+[2022-10-22 12:38:09,235] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 12:38:09,236] [main] -------------command line arguments-------------
+[2022-10-22 12:38:09,236] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 12:38:09,236] [main] -------------configs-------------
+[2022-10-22 12:38:09,236] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 12:38:16,171] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 12:38:16,425] [main] best model pack loaded
+[2022-10-22 13:07:29,803] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 13:07:29,804] [main] Generated logs will be saved to: ./logs
+[2022-10-22 13:07:29,804] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 13:07:29,804] [main] -------------command line arguments-------------
+[2022-10-22 13:07:29,804] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 13:07:29,804] [main] -------------configs-------------
+[2022-10-22 13:07:29,805] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 13:07:36,957] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 13:07:37,215] [main] best model pack loaded
+[2022-10-22 13:08:30,366] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 13:08:30,367] [main] Generated logs will be saved to: ./logs
+[2022-10-22 13:08:30,367] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 13:08:30,368] [main] -------------command line arguments-------------
+[2022-10-22 13:08:30,368] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 13:08:30,368] [main] -------------configs-------------
+[2022-10-22 13:08:30,368] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 13:08:37,300] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 13:08:37,583] [main] best model pack loaded
+[2022-10-22 13:09:23,258] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 13:09:23,258] [main] Generated logs will be saved to: ./logs
+[2022-10-22 13:09:23,259] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 13:09:23,259] [main] -------------command line arguments-------------
+[2022-10-22 13:09:23,259] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 13:09:23,259] [main] -------------configs-------------
+[2022-10-22 13:09:23,259] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 13:09:30,443] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 13:09:30,703] [main] best model pack loaded
+[2022-10-22 13:10:07,988] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 13:10:07,989] [main] Generated logs will be saved to: ./logs
+[2022-10-22 13:10:07,989] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 13:10:07,990] [main] -------------command line arguments-------------
+[2022-10-22 13:10:07,990] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 13:10:07,990] [main] -------------configs-------------
+[2022-10-22 13:10:07,990] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 13:10:15,269] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 13:10:15,526] [main] best model pack loaded
+[2022-10-22 13:10:42,832] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 13:10:42,833] [main] Generated logs will be saved to: ./logs
+[2022-10-22 13:10:42,833] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 13:10:42,833] [main] -------------command line arguments-------------
+[2022-10-22 13:10:42,833] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 13:10:42,834] [main] -------------configs-------------
+[2022-10-22 13:10:42,834] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 13:10:49,726] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 13:10:50,011] [main] best model pack loaded
+[2022-10-22 14:34:46,577] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:34:46,597] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:34:46,597] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:34:46,597] [main] -------------command line arguments-------------
+[2022-10-22 14:34:46,597] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:34:46,598] [main] -------------configs-------------
+[2022-10-22 14:34:46,598] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:35:07,747] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:35:09,010] [main] best model pack loaded
+[2022-10-22 14:37:29,769] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:37:29,769] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:37:29,769] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:37:29,770] [main] -------------command line arguments-------------
+[2022-10-22 14:37:29,770] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:37:29,770] [main] -------------configs-------------
+[2022-10-22 14:37:29,770] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:37:36,886] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:37:37,143] [main] best model pack loaded
+[2022-10-22 14:39:42,204] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:39:42,205] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:39:42,205] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:39:42,205] [main] -------------command line arguments-------------
+[2022-10-22 14:39:42,205] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:39:42,206] [main] -------------configs-------------
+[2022-10-22 14:39:42,206] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:39:49,479] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:39:49,737] [main] best model pack loaded
+[2022-10-22 14:40:48,601] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:40:48,602] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:40:48,602] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:40:48,602] [main] -------------command line arguments-------------
+[2022-10-22 14:40:48,602] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:40:48,602] [main] -------------configs-------------
+[2022-10-22 14:40:48,603] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:40:55,675] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:40:55,933] [main] best model pack loaded
+[2022-10-22 14:41:25,394] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:41:25,394] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:41:25,395] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:41:25,395] [main] -------------command line arguments-------------
+[2022-10-22 14:41:25,395] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:41:25,395] [main] -------------configs-------------
+[2022-10-22 14:41:25,395] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:41:32,557] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:41:32,815] [main] best model pack loaded
+[2022-10-22 14:42:32,178] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:42:32,178] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:42:32,178] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:42:32,179] [main] -------------command line arguments-------------
+[2022-10-22 14:42:32,179] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:42:32,179] [main] -------------configs-------------
+[2022-10-22 14:42:32,179] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:42:39,326] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:42:39,576] [main] best model pack loaded
+[2022-10-22 14:44:28,821] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:44:28,822] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:44:28,822] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:44:28,822] [main] -------------command line arguments-------------
+[2022-10-22 14:44:28,822] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:44:28,823] [main] -------------configs-------------
+[2022-10-22 14:44:28,823] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:44:36,159] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:44:36,413] [main] best model pack loaded
+[2022-10-22 14:46:54,196] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:46:54,197] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:46:54,197] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:46:54,197] [main] -------------command line arguments-------------
+[2022-10-22 14:46:54,197] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:46:54,197] [main] -------------configs-------------
+[2022-10-22 14:46:54,198] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:47:01,376] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:47:01,631] [main] best model pack loaded
+[2022-10-22 14:48:11,808] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:48:11,808] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:48:11,808] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:48:11,809] [main] -------------command line arguments-------------
+[2022-10-22 14:48:11,809] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:48:11,809] [main] -------------configs-------------
+[2022-10-22 14:48:11,809] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:48:19,075] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:48:19,364] [main] best model pack loaded
+[2022-10-22 14:50:17,360] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:50:17,361] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:50:17,361] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:50:17,361] [main] -------------command line arguments-------------
+[2022-10-22 14:50:17,361] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:50:17,361] [main] -------------configs-------------
+[2022-10-22 14:50:17,362] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:50:24,535] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:50:24,823] [main] best model pack loaded
+[2022-10-22 14:51:13,114] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 14:51:13,114] [main] Generated logs will be saved to: ./logs
+[2022-10-22 14:51:13,115] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 14:51:13,115] [main] -------------command line arguments-------------
+[2022-10-22 14:51:13,115] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 14:51:13,115] [main] -------------configs-------------
+[2022-10-22 14:51:13,115] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 14:51:20,339] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 14:51:20,623] [main] best model pack loaded
+[2022-10-22 16:44:05,114] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 16:44:05,115] [main] Generated logs will be saved to: ./logs
+[2022-10-22 16:44:05,115] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 16:44:05,115] [main] -------------command line arguments-------------
+[2022-10-22 16:44:05,115] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 16:44:05,115] [main] -------------configs-------------
+[2022-10-22 16:44:05,116] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 16:44:12,143] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 16:44:12,394] [main] best model pack loaded
+[2022-10-22 16:46:17,216] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 16:46:17,216] [main] Generated logs will be saved to: ./logs
+[2022-10-22 16:46:17,217] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 16:46:17,217] [main] -------------command line arguments-------------
+[2022-10-22 16:46:17,217] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 16:46:17,217] [main] -------------configs-------------
+[2022-10-22 16:46:17,217] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 16:46:24,379] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 16:46:24,639] [main] best model pack loaded
+[2022-10-22 16:46:58,680] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 16:46:58,680] [main] Generated logs will be saved to: ./logs
+[2022-10-22 16:46:58,680] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 16:46:58,681] [main] -------------command line arguments-------------
+[2022-10-22 16:46:58,681] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 16:46:58,681] [main] -------------configs-------------
+[2022-10-22 16:46:58,681] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 16:47:05,797] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 16:47:06,048] [main] best model pack loaded
+[2022-10-22 18:13:32,702] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:13:32,702] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:13:32,703] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:13:32,703] [main] -------------command line arguments-------------
+[2022-10-22 18:13:32,703] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:13:32,703] [main] -------------configs-------------
+[2022-10-22 18:13:32,703] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:13:39,889] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:13:40,148] [main] best model pack loaded
+[2022-10-22 18:41:34,494] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:41:34,495] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:41:34,495] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:41:34,495] [main] -------------command line arguments-------------
+[2022-10-22 18:41:34,496] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:41:34,496] [main] -------------configs-------------
+[2022-10-22 18:41:34,496] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:41:41,551] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:41:41,835] [main] best model pack loaded
+[2022-10-22 18:46:34,669] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:46:34,670] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:46:34,670] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:46:34,670] [main] -------------command line arguments-------------
+[2022-10-22 18:46:34,670] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:46:34,671] [main] -------------configs-------------
+[2022-10-22 18:46:34,671] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:46:41,865] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:46:42,150] [main] best model pack loaded
+[2022-10-22 18:55:34,060] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:55:34,060] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:55:34,061] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:55:34,061] [main] -------------command line arguments-------------
+[2022-10-22 18:55:34,061] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:55:34,061] [main] -------------configs-------------
+[2022-10-22 18:55:34,061] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:55:41,443] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:55:41,698] [main] best model pack loaded
+[2022-10-22 18:56:27,457] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:56:27,458] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:56:27,458] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:56:27,458] [main] -------------command line arguments-------------
+[2022-10-22 18:56:27,458] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:56:27,459] [main] -------------configs-------------
+[2022-10-22 18:56:27,459] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:56:34,901] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:56:35,191] [main] best model pack loaded
+[2022-10-22 18:57:01,047] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 18:57:01,047] [main] Generated logs will be saved to: ./logs
+[2022-10-22 18:57:01,048] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 18:57:01,048] [main] -------------command line arguments-------------
+[2022-10-22 18:57:01,048] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 18:57:01,048] [main] -------------configs-------------
+[2022-10-22 18:57:01,048] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 18:57:08,142] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 18:57:08,401] [main] best model pack loaded
+[2022-10-22 19:00:33,474] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:00:33,475] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:00:33,475] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:00:33,475] [main] -------------command line arguments-------------
+[2022-10-22 19:00:33,476] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:00:33,476] [main] -------------configs-------------
+[2022-10-22 19:00:33,476] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:00:40,771] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:00:41,027] [main] best model pack loaded
+[2022-10-22 19:01:31,610] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:01:31,611] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:01:31,611] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:01:31,611] [main] -------------command line arguments-------------
+[2022-10-22 19:01:31,611] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:01:31,611] [main] -------------configs-------------
+[2022-10-22 19:01:31,612] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:01:38,990] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:01:39,241] [main] best model pack loaded
+[2022-10-22 19:05:55,405] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:05:55,405] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:05:55,406] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:05:55,406] [main] -------------command line arguments-------------
+[2022-10-22 19:05:55,406] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:05:55,406] [main] -------------configs-------------
+[2022-10-22 19:05:55,406] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:06:02,400] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:06:02,654] [main] best model pack loaded
+[2022-10-22 19:07:10,124] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:07:10,125] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:07:10,125] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:07:10,125] [main] -------------command line arguments-------------
+[2022-10-22 19:07:10,126] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:07:10,126] [main] -------------configs-------------
+[2022-10-22 19:07:10,126] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:07:17,557] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:07:17,839] [main] best model pack loaded
+[2022-10-22 19:08:19,564] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:08:19,565] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:08:19,565] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:08:19,565] [main] -------------command line arguments-------------
+[2022-10-22 19:08:19,565] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:08:19,566] [main] -------------configs-------------
+[2022-10-22 19:08:19,566] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:08:26,841] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:08:27,125] [main] best model pack loaded
+[2022-10-22 19:09:08,223] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:09:08,224] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:09:08,224] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:09:08,224] [main] -------------command line arguments-------------
+[2022-10-22 19:09:08,224] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:09:08,225] [main] -------------configs-------------
+[2022-10-22 19:09:08,225] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:09:15,397] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:09:15,652] [main] best model pack loaded
+[2022-10-22 19:09:50,699] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:09:50,699] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:09:50,700] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:09:50,700] [main] -------------command line arguments-------------
+[2022-10-22 19:09:50,700] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:09:50,700] [main] -------------configs-------------
+[2022-10-22 19:09:50,700] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:09:57,841] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:09:58,098] [main] best model pack loaded
+[2022-10-22 19:16:21,559] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:16:21,560] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:16:21,560] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:16:21,560] [main] -------------command line arguments-------------
+[2022-10-22 19:16:21,560] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:16:21,560] [main] -------------configs-------------
+[2022-10-22 19:16:21,561] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:16:28,740] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:16:28,998] [main] best model pack loaded
+[2022-10-22 19:39:33,131] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 19:39:33,132] [main] Generated logs will be saved to: ./logs
+[2022-10-22 19:39:33,132] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 19:39:33,132] [main] -------------command line arguments-------------
+[2022-10-22 19:39:33,132] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 19:39:33,133] [main] -------------configs-------------
+[2022-10-22 19:39:33,133] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 19:39:40,417] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 19:39:40,670] [main] best model pack loaded
+[2022-10-22 20:05:03,532] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:05:03,533] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:05:03,533] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:05:03,533] [main] -------------command line arguments-------------
+[2022-10-22 20:05:03,533] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:05:03,534] [main] -------------configs-------------
+[2022-10-22 20:05:03,534] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:05:10,966] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:05:11,574] [main] best model pack loaded
+[2022-10-22 20:16:35,562] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:16:35,562] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:16:35,563] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:16:35,563] [main] -------------command line arguments-------------
+[2022-10-22 20:16:35,563] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:16:35,563] [main] -------------configs-------------
+[2022-10-22 20:16:35,563] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:16:42,829] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:16:43,085] [main] best model pack loaded
+[2022-10-22 20:20:23,832] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:20:23,833] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:20:23,833] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:20:23,833] [main] -------------command line arguments-------------
+[2022-10-22 20:20:23,834] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:20:23,834] [main] -------------configs-------------
+[2022-10-22 20:20:23,834] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:20:31,076] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:20:31,362] [main] best model pack loaded
+[2022-10-22 20:20:50,794] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:20:50,795] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:20:50,795] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:20:50,795] [main] -------------command line arguments-------------
+[2022-10-22 20:20:50,796] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:20:50,796] [main] -------------configs-------------
+[2022-10-22 20:20:50,796] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:20:58,128] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:20:58,389] [main] best model pack loaded
+[2022-10-22 20:23:34,433] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:23:34,434] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:23:34,434] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:23:34,434] [main] -------------command line arguments-------------
+[2022-10-22 20:23:34,435] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:23:34,435] [main] -------------configs-------------
+[2022-10-22 20:23:34,435] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:23:41,626] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:23:41,882] [main] best model pack loaded
+[2022-10-22 20:35:16,726] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:35:16,727] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:35:16,727] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:35:16,727] [main] -------------command line arguments-------------
+[2022-10-22 20:35:16,728] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:35:16,728] [main] -------------configs-------------
+[2022-10-22 20:35:16,728] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:35:23,939] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:35:24,223] [main] best model pack loaded
+[2022-10-22 20:47:19,524] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 20:47:19,524] [main] Generated logs will be saved to: ./logs
+[2022-10-22 20:47:19,525] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 20:47:19,525] [main] -------------command line arguments-------------
+[2022-10-22 20:47:19,525] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 20:47:19,525] [main] -------------configs-------------
+[2022-10-22 20:47:19,525] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 20:47:26,683] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 20:47:26,938] [main] best model pack loaded
+[2022-10-22 21:12:40,894] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 21:12:40,895] [main] Generated logs will be saved to: ./logs
+[2022-10-22 21:12:40,895] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 21:12:40,895] [main] -------------command line arguments-------------
+[2022-10-22 21:12:40,895] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 21:12:40,896] [main] -------------configs-------------
+[2022-10-22 21:12:40,896] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 21:12:48,010] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 21:12:48,301] [main] best model pack loaded
+[2022-10-22 21:14:07,001] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 21:14:07,002] [main] Generated logs will be saved to: ./logs
+[2022-10-22 21:14:07,002] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 21:14:07,002] [main] -------------command line arguments-------------
+[2022-10-22 21:14:07,002] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 21:14:07,003] [main] -------------configs-------------
+[2022-10-22 21:14:07,003] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 21:14:14,060] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 21:14:14,313] [main] best model pack loaded
+[2022-10-22 21:14:52,516] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 21:14:52,517] [main] Generated logs will be saved to: ./logs
+[2022-10-22 21:14:52,517] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 21:14:52,517] [main] -------------command line arguments-------------
+[2022-10-22 21:14:52,517] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 21:14:52,517] [main] -------------configs-------------
+[2022-10-22 21:14:52,517] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 21:14:59,602] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 21:14:59,859] [main] best model pack loaded
+[2022-10-22 21:16:44,410] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 21:16:44,411] [main] Generated logs will be saved to: ./logs
+[2022-10-22 21:16:44,411] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 21:16:44,411] [main] -------------command line arguments-------------
+[2022-10-22 21:16:44,412] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 21:16:44,412] [main] -------------configs-------------
+[2022-10-22 21:16:44,412] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 21:16:51,484] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 21:16:51,741] [main] best model pack loaded
+[2022-10-22 21:20:13,714] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-22 21:20:13,715] [main] Generated logs will be saved to: ./logs
+[2022-10-22 21:20:13,715] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-22 21:20:13,715] [main] -------------command line arguments-------------
+[2022-10-22 21:20:13,715] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:1', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-22 21:20:13,716] [main] -------------configs-------------
+[2022-10-22 21:20:13,716] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-22 21:20:20,753] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-22 21:20:21,006] [main] best model pack loaded
+[2022-10-24 16:14:45,902] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-24 16:14:45,916] [main] Generated logs will be saved to: ./logs
+[2022-10-24 16:14:45,917] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-24 16:14:45,917] [main] -------------command line arguments-------------
+[2022-10-24 16:14:45,917] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:0', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-24 16:14:45,917] [main] -------------configs-------------
+[2022-10-24 16:14:45,917] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-24 16:14:55,661] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-24 16:15:02,582] [main] best model pack loaded
+[2022-10-24 16:18:41,946] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-24 16:18:41,947] [main] Generated logs will be saved to: ./logs
+[2022-10-24 16:18:41,947] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-24 16:18:41,947] [main] -------------command line arguments-------------
+[2022-10-24 16:18:41,948] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:0', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-24 16:18:41,948] [main] -------------configs-------------
+[2022-10-24 16:18:41,948] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-24 16:18:50,589] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-24 16:18:56,553] [main] best model pack loaded
+[2022-10-24 16:19:19,481] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-24 16:19:19,482] [main] Generated logs will be saved to: ./logs
+[2022-10-24 16:19:19,482] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-24 16:19:19,482] [main] -------------command line arguments-------------
+[2022-10-24 16:19:19,482] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:0', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-24 16:19:19,482] [main] -------------configs-------------
+[2022-10-24 16:19:19,483] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-24 16:19:26,652] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-24 16:19:32,848] [main] best model pack loaded
+[2022-10-24 16:32:00,034] [main] Launching experiment from: ./config/5way_5shot_convnet_mini-imagenet_3query.py
+[2022-10-24 16:32:00,035] [main] Generated logs will be saved to: ./logs
+[2022-10-24 16:32:00,035] [main] Generated checkpoints will be saved to: ./checkpoints
+[2022-10-24 16:32:00,035] [main] -------------command line arguments-------------
+[2022-10-24 16:32:00,036] [main] Namespace(checkpoint_dir='./checkpoints', config='./config/5way_5shot_convnet_mini-imagenet_3query.py', dataset_root='/home/cmz/workspace/datasets/mini_imagenet_3pickles', device='cuda:0', display_step=100, exp_name='5way_5shot_convnet_mini-imagenet_3query', log_dir='./logs', log_step=100, mode='eval', num_gpu=1, seed=222)
+[2022-10-24 16:32:00,036] [main] -------------configs-------------
+[2022-10-24 16:32:00,036] [main] OrderedDict([('dataset_name', 'mini-imagenet'), ('num_generation', 5), ('point_distance_metric', 'l1'), ('distribution_distance_metric', 'l1'), ('emb_size', 128), ('backbone', 'convnet'), ('eval_config', OrderedDict([('num_ways', 5), ('num_shots', 5), ('batch_size', 3), ('iteration', 3000), ('sample_num_list', [5, 3, 3, 2, 1]), ('num_queries', 3), ('dropout', 0.1)]))])
+[2022-10-24 16:32:07,109] [main] find a checkpoint, loading checkpoint from ./checkpoints/5way_5shot_convnet_mini-imagenet_3query
+[2022-10-24 16:32:13,059] [main] best model pack loaded
